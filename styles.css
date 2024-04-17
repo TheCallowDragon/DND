@@ -89,11 +89,14 @@ body {
     display: block;
     background-color: rgba(214, 33, 33, 0.568);
 }
+
 }
 
 @media only screen and (max-width: 576px) {
-    /* CSS rules for extra small devices */
+/* CSS rules for extra small devices */
+ body {
+    background-color: red;
+}
 
 
-    
 }
