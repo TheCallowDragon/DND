@@ -92,10 +92,10 @@ body {
 
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
 /* CSS rules for extra small devices */
  body {
-    background-color: red;
+    background-color: rgba(188, 160, 51, 0.523);
 }
 
 h1 {
