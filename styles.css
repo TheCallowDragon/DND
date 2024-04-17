@@ -92,6 +92,9 @@ body {
 
 }
 
+
+
+
 @media only screen and (max-width: 600px) {
 /* CSS rules for extra small devices */
  body {
@@ -101,6 +104,107 @@ body {
 h1 {
     text-align: center;
     border: 2px solid black;
+    margin: 0 auto;
+    display: block;
+    padding: 3%;
     
+    }
+    .Influences {
+        width: 80%;
+        background-color: rgba(40, 28, 176, 0.45);
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: block;
+        padding: 3%;
+    }
+    
+    .Role {
+    
+        width: 80%;
+        background-color: rgba(61, 185, 23, 0.699);
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: block; 
+        padding: 3%;
+    }
+    
+    .Team {
+        border-radius: 10px;
+        padding: 2%;
+        border: 2px solid black;
+        width: 75%;
+     
+        margin: 0 auto;
+        
+        display: block;
+    
+    }
+    
+    .Passives {
+        width: 80%;
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: block;
+        background-color: rgba(214, 33, 33, 0.568);
+        margin: 0 auto;
+        display: block;
+        padding: 3%;
+    }
+    h2 {
+        text-align: center;
+        margin-left:30%;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 45%;
+        padding: 10px;
+        margin-top: 4%;
+        margin: 0 auto;
+        display: block;
+      
+    }
+    
+    
+    h3 {
+        text-align: center;
+        margin-top: 4%;
+     
+        margin-left:40%;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 25%;
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    
+    
+    h4 {
+        text-align: center;
+        margin-top: 4%;
+      
+        margin-left:40%;
+        border-radius: 10px;
+        border: 2px solid black;
+        background-clip: padding-box; 
+        width: 25%;
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+
+    .Description {
+        border-radius: 10px;
+        padding: 2%;
+        border: 2px solid black;
+        width: 75%;
+     
+        margin: 0 auto;
+        display: block;
     }
 }
