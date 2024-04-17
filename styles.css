@@ -2,102 +2,103 @@
     /* CSS rules for large devices */
 
 
-h1 {
-text-align: center;
-border: 2px solid black;
+    h1 {
+        text-align: center;
+        border: 2px solid black;
 
-}
+    }
 
-h2 {
-    text-align: center;
-    margin-left:40%;
-    border-radius: 10px;
-    border: 2px solid black;
-    width: 20%;
-    padding: 10px;
-  
-}
+    h2 {
+        text-align: center;
+        margin-left: 40%;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 20%;
+        padding: 10px;
 
-
-h3 {
-    text-align: center;
-
-    text-align: center;
-    margin-left:40%;
-    border-radius: 10px;
-    border: 2px solid black;
-    width: 20%;
-    padding: 10px;
-}
+    }
 
 
+    h3 {
+        text-align: center;
 
-h4 {
-    text-align: center;
-
-    text-align: center;
-    margin-left:40%;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-clip: padding-box; 
-    width: 20%;
-    padding: 10px;
-}
-
-body {
-    text-align: center;
-    background-color: rgba(106, 95, 23, 0.606);
-
-}
+        text-align: center;
+        margin-left: 40%;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 20%;
+        padding: 10px;
+    }
 
 
 
-.Influences {
-    width: 35%;
-    background-color: rgba(40, 28, 176, 0.45);
-    border-radius: 20px;
-    border: 2px solid black;
-    margin: 0 auto;
-    display: block;
-}
+    h4 {
+        text-align: center;
 
-.Role {
+        text-align: center;
+        margin-left: 40%;
+        border-radius: 10px;
+        border: 2px solid black;
+        background-clip: padding-box;
+        width: 20%;
+        padding: 10px;
+    }
 
-    width: 35%;
-    background-color: rgba(61, 185, 23, 0.699);
-    border-radius: 20px;
-    border: 2px solid black;
-    margin: 0 auto;
-    display: block; 
-}
+    body {
+        text-align: center;
+        background-color: rgba(106, 95, 23, 0.606);
 
-.Team {
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 90%;
- 
-    margin: 0 auto;
-    display: block;
+    }
 
-}
 
-.Passives {
-    width: 35%;
-    border-radius: 20px;
-    border: 2px solid black;
-    margin: 0 auto;
-    display: block;
-    background-color: rgba(214, 33, 33, 0.568);
-}
-.Description {
-    border-radius: 10px;
-    padding: 2%;
-    border: 2px solid black;
-    width: 75%;
- 
-    margin: 0 auto;
-    display: block;
-}
+
+    .Influences {
+        width: 35%;
+        background-color: rgba(40, 28, 176, 0.45);
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .Role {
+
+        width: 35%;
+        background-color: rgba(61, 185, 23, 0.699);
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .Team {
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 90%;
+
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .Passives {
+        width: 35%;
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: block;
+        background-color: rgba(214, 33, 33, 0.568);
+    }
+
+    .Description {
+        border-radius: 10px;
+        padding: 2%;
+        border: 2px solid black;
+        width: 75%;
+
+        margin: 0 auto;
+        display: block;
+    }
 
 }
 
@@ -105,19 +106,21 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-/* CSS rules for extra small devices */
- body {
-    background-color: rgba(188, 160, 51, 0.523);
-}
 
-h1 {
-    text-align: center;
-    border: 2px solid black;
-    margin: 0 auto;
-    display: block;
-    padding: 3%;
-    
+    /* CSS rules for extra small devices */
+    body {
+        background-color: rgba(188, 160, 51, 0.523);
     }
+
+    h1 {
+        text-align: center;
+        border: 2px solid black;
+        margin: 0 auto;
+        display: block;
+        padding: 3%;
+
+    }
+
     .Influences {
         width: 80%;
         background-color: rgba(40, 28, 176, 0.45);
@@ -127,30 +130,30 @@ h1 {
         display: block;
         padding: 3%;
     }
-    
+
     .Role {
-    
+
         width: 80%;
         background-color: rgba(61, 185, 23, 0.699);
         border-radius: 20px;
         border: 2px solid black;
         margin: 0 auto;
-        display: block; 
+        display: block;
         padding: 3%;
     }
-    
+
     .Team {
         border-radius: 10px;
         padding: 2%;
         border: 2px solid black;
         width: 75%;
-     
+
         margin: 0 auto;
-        
+
         display: block;
-    
+
     }
-    
+
     .Passives {
         width: 80%;
         border-radius: 20px;
@@ -162,9 +165,10 @@ h1 {
         display: block;
         padding: 3%;
     }
+
     h2 {
         text-align: center;
-        margin-left:30%;
+        margin-left: 30%;
         border-radius: 10px;
         border: 2px solid black;
         width: 45%;
@@ -172,15 +176,15 @@ h1 {
         margin-top: 4%;
         margin: 0 auto;
         display: block;
-      
+
     }
-    
-    
+
+
     h3 {
         text-align: center;
         margin-top: 4%;
-     
-        margin-left:40%;
+
+        margin-left: 40%;
         border-radius: 10px;
         border: 2px solid black;
         width: 25%;
@@ -188,17 +192,17 @@ h1 {
         margin: 0 auto;
         display: block;
     }
-    
-    
-    
+
+
+
     h4 {
         text-align: center;
         margin-top: 4%;
-      
-        margin-left:40%;
+
+        margin-left: 40%;
         border-radius: 10px;
         border: 2px solid black;
-        background-clip: padding-box; 
+        background-clip: padding-box;
         width: 25%;
         padding: 10px;
         margin: 0 auto;
@@ -212,17 +216,20 @@ h1 {
         padding: 2%;
         border: 2px solid black;
         width: 75%;
-     
+
         margin: 0 auto;
         display: block;
     }
 
 
 }
+
 a {
-    color: grey; /* Set the desired color for regular hyperlinks */
+    color: grey;
+    /* Set the desired color for regular hyperlinks */
 }
 
 a:hover {
-    color: red; /* Set the color when hovering over the hyperlink */
+    color: red;
+    /* Set the color when hovering over the hyperlink */
 }
