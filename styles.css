@@ -89,6 +89,15 @@ body {
     display: block;
     background-color: rgba(214, 33, 33, 0.568);
 }
+.Description {
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid black;
+    width: 75%;
+ 
+    margin: 0 auto;
+    display: block;
+}
 
 }
 
@@ -207,4 +216,13 @@ h1 {
         margin: 0 auto;
         display: block;
     }
+
+
+}
+a {
+    color: grey; /* Set the desired color for regular hyperlinks */
+}
+
+a:hover {
+    color: red; /* Set the color when hovering over the hyperlink */
 }
