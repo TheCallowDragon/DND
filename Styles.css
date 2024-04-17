@@ -1,0 +1,87 @@
+h1 {
+text-align: center;
+border: 2px solid black;
+
+}
+
+h2 {
+    text-align: center;
+    margin-left:40%;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 20%;
+    padding: 10px;
+  
+}
+
+
+h3 {
+    text-align: center;
+
+    text-align: center;
+    margin-left:40%;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 20%;
+    padding: 10px;
+}
+
+
+
+h4 {
+    text-align: center;
+
+    text-align: center;
+    margin-left:40%;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-clip: padding-box; 
+    width: 20%;
+    padding: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(106, 95, 23, 0.606);
+
+}
+
+
+
+.Influences {
+    width: 35%;
+    background-color: rgba(40, 28, 176, 0.45);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+.Role {
+
+    width: 35%;
+    background-color: rgba(61, 185, 23, 0.699);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: block; 
+}
+
+.Team {
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 90%;
+ 
+    margin: 0 auto;
+    display: block;
+
+}
+
+.Passives {
+    width: 35%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: block;
+    background-color: rgba(214, 33, 33, 0.568);
+}
