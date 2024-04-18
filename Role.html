@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Role</title>
     <style>
-        .Image img {
-            width: 50%;
+       @media only screen and (min-width: 1200px) {
+    /* CSS rules for large devices */
+    .Image img {
+            width: 30%;
             margin: 0 auto;
             display: block;
+            border-radius: 5%;
+                border-color: black;
+                border-style: inset;
 
         }
 
         body {
-            background-color: rgba(152, 15, 15, 0.525);
+            background-color: rgba(167, 129, 13, 0.672);
         }
 
         .button {
@@ -22,12 +27,18 @@
 
         }
 
+
+    }
+
         @media only screen and (max-width: 600px) {
 
             .Image img {
                 width: 75%;
                 margin: 0 auto;
                 display: block;
+                border-radius: 5%;
+                border-color: black;
+                border-style: inset;
 
             }
 

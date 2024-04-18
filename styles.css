@@ -187,7 +187,7 @@
         margin-left: 40%;
         border-radius: 10px;
         border: 2px solid black;
-        width: 25%;
+        width: 30%;
         padding: 10px;
         margin: 0 auto;
         display: block;
@@ -203,7 +203,7 @@
         border-radius: 10px;
         border: 2px solid black;
         background-clip: padding-box;
-        width: 25%;
+        width: 35%;
         padding: 10px;
         margin: 0 auto;
         display: block;
@@ -225,7 +225,7 @@
 }
 
 a {
-    color: grey;
+    color: rgba(0, 0, 0, 0.955);
     /* Set the desired color for regular hyperlinks */
 }
 

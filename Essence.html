@@ -1,42 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essence</title>
     <style>
+        @media only screen and (min-width: 1200px) {
+
+            /* CSS rules for large devices */
+            .Image img {
+                width: 30%;
+                margin: 0 auto;
+                display: block;
+                border-radius: 5%;
+                border-color: black;
+                border-style: inset;
+
+            }
+
+            body {
+                background-color: rgba(167, 129, 13, 0.672);
+            }
+
+            .button {
+                margin: 0 auto;
+                display: block;
+
+            }
+
+
+        }
+
+
+
+
         @media only screen and (max-width: 600px) {
-    
+
             .Image img {
                 width: 75%;
                 margin: 0 auto;
                 display: block;
-    
+                border-radius: 5%;
+                border-color: black;
+                border-style: inset;
+
             }
-    
+
             body {
                 background-color: rgba(167, 129, 13, 0.672);
             }
-    
+
             .button {
                 margin: 0 auto;
                 display: block;
-    
+
             }
-    
-    
+
+
         }
-        </style>
+    </style>
 </head>
+
 <body>
     <input type="button" value="Go Back" class="button" onclick="location.href='index.html'">
     <div class="Image">
         <img src="img/Skills/Essence/Snapchat-701377885.jpg">
         <br>
         <img src="img/Skills/Essence/Snapchat-1154271670.jpg">
-        <br>  
-        
-      
-        </div>
+        <br>
+
+
+    </div>
 </body>
+
 </html>
