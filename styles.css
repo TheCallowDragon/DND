@@ -100,6 +100,17 @@
         display: block;
     }
 
+    .character {
+        margin: 0 auto;
+        display: block;
+        width: 15%;
+        border: 2%;
+        border-radius: 10%;
+        border-style: double;
+
+
+    }
+
 }
 
 
@@ -224,6 +235,16 @@
     .Long {
         width: 75%;
   
+    }
+
+    .character {
+        margin: 0 auto;
+        display: block;
+        width: 25%;
+        border: 2%;
+        border-radius: 10%;
+        border-style: double;
+
     }
 
 
